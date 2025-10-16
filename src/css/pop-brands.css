@@ -1,0 +1,63 @@
+.pop-brands {
+    width: 100%;
+    height: 230px;
+
+    .pop-brands-center {
+        width: 88%;
+        height: 100%;
+        margin: 10px auto;
+        border: 1px solid rgb(224, 224, 226);
+        border-radius: 20px;
+        padding: 24px 0px;
+        box-sizing: border-box;
+
+        .pop-brands-center-title {
+            width: 100%;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                font-size: 21px;
+            }
+
+            svg {
+                width: 24;
+                height: 24px;
+                fill: #F9BC00;
+            }
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .swiper-slide {
+            width: 142;
+            height: 118;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                width: 110px;
+                height: 110px;
+                object-fit: contain;
+            }
+        }
+
+        .pop-brands-btn{
+            background-color: white;
+            border: 1px solid rgb(224,224,226);
+            width:40px;
+            height: 40px;
+        }
+        
+
+    }
+}

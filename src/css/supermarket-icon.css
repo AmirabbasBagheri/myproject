@@ -1,0 +1,189 @@
+[for=supermarket-open] {
+    width: 130px;
+    height: 52px;
+    position: fixed;
+    top: 86%;
+    left: 20px;
+    z-index: 100;
+    border-radius: 50px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    background-color: #029A49;
+    border-radius: 50px;
+
+    .supermarket-icon {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        p {
+            color: white;
+            font-weight: 600;
+        }
+
+        .svg {
+            width: 12px !important;
+            height: 12px !important;
+            fill: whitesmoke !important;
+        }
+    }
+
+
+}
+
+.supermarket-form {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: calc(58% - 225px);
+    left: calc(50% - 200px);
+    z-index: 101;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #a6a6a6;
+    display: none;
+
+    .supermarket-form-head {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        P {
+            font-size: 18PX;
+            color: #2b2b2b;
+            opacity: 0.9;
+        }
+
+        svg {
+            cursor: pointer;
+            fill: #2b2b2b;
+            opacity: 0.7;
+        }
+
+    }
+
+    .supermarket-form-center {
+        width: 100%;
+        margin: 10px auto;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        .supermarket-form-center-content {
+            width: 50%;
+            padding: 15px 15px;
+            box-sizing: border-box;
+            background-color: #DBF3E6;
+            border-radius: 10px;
+
+            .supermarket-form-center-title {
+                display: flex;
+                align-items: center;
+                justify-content: right;
+
+                p {
+                    color: #2b2b2b;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                }
+
+                svg {
+                    margin-right: 10px;
+                    width: 16px;
+                    height: 16px;
+
+                }
+
+            }
+
+            .supermarket-form-center-title2 {
+                padding-top: 15px;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+
+
+                .supermarket-form-center-title2-content {
+                    width: fit-content;
+                    text-align: center;
+                    padding: 5px 15px;
+                    box-sizing: border-box;
+                    display: flex;
+                    gap: 6px;
+                    align-items: end;
+                    justify-content: center;
+                    border-radius: 20px 0px 20px 20px;
+                    background-color: #029A49;
+
+
+                    p {
+                        color: white;
+                        font-weight: 600;
+
+                    }
+
+                    svg {
+                        width: 20px;
+                        height: 15px;
+                        fill: white !important;
+                        margin-bottom: 2.5px;
+                    }
+                }
+
+
+
+            }
+
+            .supermarket-form-center-image {
+                padding-top: 30px;
+
+                display: flex;
+                justify-content: left;
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+
+
+        }
+    }
+
+    .bgcolor-content-second {
+        background-color: #FEEBDE !important;
+    }
+
+    .bgcolor-content-title-second {
+        background-color: #FF8042 !important;
+    }
+
+    .svg-size-second {
+        svg {
+            width: 18px !important;
+            height: 18px !important;
+
+        }
+    }
+
+}
+
+#supermarket-open:checked ~ .supermarket-form{
+    display: block;
+    
+}
+#supermarket-close ,#supermarket-open {
+    display: none;
+}

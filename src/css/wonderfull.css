@@ -1,0 +1,183 @@
+.wonderfull {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .woderfull-center {
+        width: 88%;
+        height: 300px;
+        background-color: #D92F4E;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .swiper-slide-item {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    display: block;
+                    width: 132PX;
+                    height: 132PX;
+                    margin: 5px auto;
+
+                }
+
+                p {
+                    width: 90%;
+                    margin: auto;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    overflow: hidden;
+                    font-size: 12px;
+                    color: #62666d;
+                    margin-bottom: 10px;
+                }
+
+                .price {
+                    width: 100%;
+                    height: 30px;
+                    font-size: 14px;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    padding: 0 5px;
+                    box-sizing: border-box;
+                    align-items: center;
+
+                    .tooman {
+                        width: 18px;
+                        height: 18px;
+                        margin: 0;
+
+                    }
+
+                    .real-price {
+                        margin-left: -20px;
+
+
+                    }
+
+                    .discount {
+                        display: inline-block;
+                        padding: 1px 7px;
+                        background-color: #D92F4E;
+                        border-radius: 10px;
+                        font-size: 12px;
+                        color: whitesmoke;
+                    }
+
+                }
+                .last-price{
+                    text-align: left;
+                    margin-left: 25px;
+                    font-size: 12px;
+                    text-decoration: line-through;
+                    color: #c0c2c5;
+                    font-weight: 700;
+                }
+
+            }
+        }
+
+
+
+    }
+
+
+
+
+
+}
+.empty{
+    background-color: #D92F4E !important;
+}   
+
+.first {
+    border-radius: 0 10px 10px 0;
+}
+
+.last {
+    border-radius: 10px 0 0px 10px;
+}
+
+.swiper-slide-active-wonderfull {
+    background-color: #D92F4E;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+    .swiper-slide-active-item-image-1 {
+        width: 88px;
+        height: 88px;
+        display: block;
+        margin: 10px auto;
+
+    }
+
+    .clock {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        column-gap: 2px;
+        margin: 0 auto;
+
+        .hours, .minutes, .seconds {
+            width: 25px;
+            height: 25px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        span {
+            color: whitesmoke;
+
+        }
+
+    }
+
+    img {
+        width: 88px;
+        height: 88px;
+        display: block;
+        margin: 10px auto;
+
+
+
+    }
+
+    a {
+        font-size: 14px;
+        text-decoration: none;
+        color: whitesmoke;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+}

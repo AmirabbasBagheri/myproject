@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.woff2);
+    src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.woff);
+    src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.ttf);
+    /* src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.eot); */
+    
+}
+
+:root {
+    --font-family: vazir;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2b2b2b;
+
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next, .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 1px solid #c8bfbf;
+
+    .swiper-navigation-icon {
+        width: 7px;
+        color: #2b2b22;
+    }
+
+}
+
+.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px !important;
+    height: 5px !important;
+    background-color: #c8bfbf !important;
+    border-radius: 5px !important;
+    transition: 500ms !important;
+
+}
