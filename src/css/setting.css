@@ -4,7 +4,9 @@
 }
 
 .wrapper {
-    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+
 }
 
 @font-face {
@@ -13,7 +15,7 @@
     src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.woff);
     src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.ttf);
     /* src: url(Fonts/vazir-font-v16.1.0/Vazir-FD-WOL.eot); */
-    
+
 }
 
 :root {
