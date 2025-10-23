@@ -1,6 +1,6 @@
 .digital {
     width: 100%;
-    height: 470px;
+    height: 440px;
     margin: 20px auto;
     display: flex;
     justify-content: center;
@@ -67,14 +67,14 @@
 }
 
 .border-top {
-    border-top: 1px solid rgb(224, 224, 226);
+    border-top: 1px solid rgb(224, 224, 250);
 }
 
 .border-left {
-    border-left: 1px solid rgb(224, 224, 226);
+    border-left: 1px solid rgb(224, 224, 250);
 }
 
 .borger-left-inner {
-    border-left: 1px solid rgb(224, 224, 226);
+    border-left: 1px solid rgb(224, 224, 250);
 
 }
